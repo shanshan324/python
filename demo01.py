@@ -139,3 +139,31 @@ N>0, N=n1+n2+...+nk
 
 f[n][m]=true
 """
+
+"""
+二叉树前、中、后序遍历
+"""
+# class TreeNode:
+#     def __init__(self,val):
+#         self.val=val
+#         self.left=None
+#         self.right=None
+
+# class Solution:
+#     def preorder(self,root):
+#         if root:
+#             self.traverse_path.append(root.val)
+#             self.preorder(root.left)
+#             self.preorder(root.right)
+    
+#     def inorder(self,root):
+#         if root:
+#             self.inorder(root.left)
+#             self.traverse_path.append(root.val)
+#             self.inorder(root.right)
+    
+#     def postorder(self,root):
+#         if root:
+#             self.postorder(root.left)
+#             self.postorder(root.right)
+#             self.traverse_path.append(root.val)
